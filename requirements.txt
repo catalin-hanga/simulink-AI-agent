@@ -1,0 +1,14 @@
+matlabengine
+langchain
+langchain-aws
+langchain-openai
+langchain-community
+numpy
+scipy
+python-dotenv
+httpx[http2]
+streamlit
+pydantic
+SpeechRecognition
+PyAudio
+dill
