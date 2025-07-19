@@ -101,7 +101,7 @@ def main_loop():
                                                         parent_container = st.container(),
                                                         expand_new_thoughts = False,
                                                         collapse_completed_thoughts = True,                                   
-                                                )
+                                                    )
             
                 response = agent_executor.invoke(
                         {"input": user_messge, "chat_history": st.session_state["messages"]}, 
