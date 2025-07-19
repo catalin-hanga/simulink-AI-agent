@@ -54,7 +54,9 @@ agent_executor = AgentExecutor(
                                 tools = tools,
                                 verbose = True,
                                 handle_parsing_errors = True,
-                                stream_runnable = True, 
+                                stream_runnable = True,
+                                max_execution_time = 180,
+                                max_iterations = 20,
                             )
 
 #----------------------------------------------------
