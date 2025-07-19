@@ -1,7 +1,9 @@
 from langchain.prompts import PromptTemplate
 
 template = """
-Answer the following questions as best you can. You have access to the following tools:
+Answer the below user question as best you can. 
+
+You have access to the following tools:
 
 {tools}
 
@@ -16,7 +18,10 @@ Thought: you should always think about what to do
 Action: the action to take, should be one of [{tool_names}]
 Action Input: the input to the action
 Observation: the result of the action
-... (if necessary, this Thought/Action/Action Input/Observation cycle can be repeated several times)
+
+If necessary, this Thought/Action/Action Input/Observation cycle can be repeated several times.
+When you have a response to say to the user, or if you do not need to use a tool, you MUST use the format:
+
 Thought: I now know the final answer
 Final Answer: the final answer to the original input question
     

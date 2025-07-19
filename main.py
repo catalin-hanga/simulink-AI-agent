@@ -1,4 +1,5 @@
 from utils import llm
+from tools import tools
 from prompts import prompt
 
 import streamlit as st
@@ -9,31 +10,12 @@ from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 
 #----------------------------------------------------
 
-import matlab.engine
-eng = matlab.engine.start_matlab()
-
-import dill
-
-from langchain_core.tools import StructuredTool
-
-with open("functions.bin", "rb") as f:
-    functions = dill.load(f)
-
-tools = []
-
-for f in functions:
-    func = dill.loads(f)
-    tool = StructuredTool.from_function(func = func)
-    tools.append(tool)
-
-#----------------------------------------------------
-
 st.set_page_config(page_title = "SimuLang", page_icon = ":robot_face:")
 
 st.markdown("""
         <style>
                .block-container {
-                    padding-top:    3rem;
+                    padding-top:    2.8rem;
                     padding-bottom: 0.5rem;
                 }
         </style>
@@ -64,7 +46,7 @@ agent_executor = AgentExecutor(
 @st.fragment
 def main_loop():
 
-    container = st.container(border = True, height = 500)
+    container = st.container(border = True, height = 550)
 
     if "messages" not in st.session_state:
         st.session_state["messages"] = []

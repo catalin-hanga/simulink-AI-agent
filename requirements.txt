@@ -1,6 +1,5 @@
 matlabengine
 langchain
-langchain-aws
 langchain-openai
 langchain-community
 numpy
