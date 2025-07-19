@@ -98,10 +98,10 @@ def main_loop():
 
             with st.chat_message(name = "assistant"):
                 st_callback = StreamlitCallbackHandler(
-                                                    parent_container = st.container(),
-                                                    expand_new_thoughts = False,
-                                                    collapse_completed_thoughts = True,                                   
-                )
+                                                        parent_container = st.container(),
+                                                        expand_new_thoughts = False,
+                                                        collapse_completed_thoughts = True,                                   
+                                                )
             
                 response = agent_executor.invoke(
                         {"input": user_messge, "chat_history": st.session_state["messages"]}, 
@@ -112,6 +112,5 @@ def main_loop():
 
             st.session_state["messages"].append({"role": "user",      "content": response["input"]})    
             st.session_state["messages"].append({"role": "assistant", "content": response["output"]})
-
 
 main_loop()
