@@ -4,7 +4,7 @@ load_dotenv(find_dotenv())
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(
-                    model = "gpt-4o",
+                    model = "gpt-4o-mini",
                     temperature = 0,
                     streaming = True,           
                 )

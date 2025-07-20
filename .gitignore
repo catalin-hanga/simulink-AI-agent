@@ -1,0 +1,10 @@
+*
+
+!.gitignore
+!functions.bin
+!main.py
+!prompts.py
+!README.md
+!requirements.txt
+!tools.py
+!utils.py

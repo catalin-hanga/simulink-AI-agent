@@ -1,3 +1,6 @@
+import matlab.engine
+eng = matlab.engine.start_matlab()
+
 from utils import llm
 from tools import tools
 from prompts import prompt
@@ -37,7 +40,7 @@ agent_executor = AgentExecutor(
                                 verbose = True,
                                 handle_parsing_errors = True,
                                 stream_runnable = True,
-                                max_execution_time = 180,
+                                max_execution_time = 300,
                                 max_iterations = 20,
                             )
 

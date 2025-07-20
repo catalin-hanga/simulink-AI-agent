@@ -1,6 +1,3 @@
-import matlab.engine
-eng = matlab.engine.start_matlab()
-
 import dill
 
 from langchain_core.tools import StructuredTool
