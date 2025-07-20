@@ -3,8 +3,8 @@
 !.gitignore
 !functions.bin
 !main.py
+!models.py
 !prompts.py
 !README.md
 !requirements.txt
 !tools.py
-!utils.py

@@ -1,7 +1,4 @@
 matlabengine
-langchain
-langchain-openai
-langchain-community
 numpy
 scipy
 python-dotenv
@@ -10,3 +7,11 @@ pydantic
 SpeechRecognition
 PyAudio
 dill
+langchain
+langchain-openai
+langchain-community
+# langchain-anthropic
+# langchain-mistralai
+# langchain-cohere
+# langchain-aws
+# boto3
