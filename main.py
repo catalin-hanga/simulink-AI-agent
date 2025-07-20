@@ -37,7 +37,7 @@ agent  = create_react_agent(llm, tools, prompt)
 agent_executor = AgentExecutor(
                                 agent = agent,
                                 tools = tools,
-                                verbose = True,
+                                verbose = False,
                                 handle_parsing_errors = True,
                                 stream_runnable = True,
                                 max_execution_time = 300,
@@ -73,7 +73,6 @@ def main_loop():
                 audio = recognizer.listen(source)
             user_messge = recognizer.recognize_whisper(audio_data = audio, model = "base", language = "english")
     #        user_messge = recognizer.recognize_whisper_api(audio)
-
 
     if user_messge:
         with container:

@@ -8,4 +8,5 @@ python-dotenv
 streamlit
 pydantic
 SpeechRecognition
+PyAudio
 dill
