@@ -12,8 +12,8 @@
 
 ### Installation
 ```
-git clone https://github.com/catalin-hanga/simulink-agent
-cd simulink-agent
+git clone https://github.com/catalin-hanga/simulink-AI-agent
+cd simulink-AI-agent
 pip install -r requirements.txt
 OPENAI_API_KEY=...
 streamlit run main.py
