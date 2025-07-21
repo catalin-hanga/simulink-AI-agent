@@ -1,20 +1,42 @@
 # Simulink Agent
 
-## Description
+## 1. Description
+
+## 2. Setup Enviroment
 
 ### Requirements
 
-- Matlab ≥ R2023a, and Simulink <br>
-  Instructions on how to install Matlab can be found at https://mathworks.com/help/install/ug/install-products-with-internet-connection.html 
-  A free trial license of Matlab can be obtained from https://mathworks.com/campaigns/products/trials.html
+- Matlab ≥ R2023a, and the Simulink package <br>
+  Instructions on how to install Matlab can be found at https://mathworks.com/help/install/ug/install-products-with-internet-connection.html <br>
+  A free trial license for Matlab can be obtained from https://mathworks.com/campaigns/products/trials.html
 - Python 3.8, 3.9, 3.10, 3.11, or 3.12 <br>
-  The version of Python should match with the corresponding version of Matlab, according to this table https://mathworks.com/support/requirements/python-compatibility.html
+  The version of Python should match with the corresponding release of Matlab, according to this table https://mathworks.com/support/requirements/python-compatibility.html
+- An [OpenAI](https://auth.openai.com/create-account) account, with an API key
 
-### Installation
+### Installation Steps
+**1. Clone the repository**
 ```
 git clone https://github.com/catalin-hanga/simulink-AI-agent
 cd simulink-AI-agent
+```
+**2. Install all dependencies**
+```
 pip install -r requirements.txt
+```
+By default, this command will install the latest version available of the Matlab Engine API for Python. If you do not have the latest release of Matlab, then you need to specify in the requirements.txt file a version of the Matlab engine that is compatible with your release. You can determine a compatible version of the Matlab engine by using the [PyPI page for Matlab Engine API for Python](https://pypi.org/project/matlabengine): From the Release history tab, review the Required MathWorks Products section for each MATLAB engine release. (More information about how to install the Matlab Engine API for Python can be found at https://mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html).
+
+**3. Add credentials** <br>
+Create an .env file, and provide your OpenAI API key as an enviroment variable
+```
 OPENAI_API_KEY=...
+```
+
+## 3. Quick Start
+
+### As a Streamlit application
+
+```
 streamlit run main.py
 ```
+
+### From the command line
