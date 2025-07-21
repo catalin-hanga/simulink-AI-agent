@@ -1,3 +1,6 @@
+# from dotenv import load_dotenv, find_dotenv
+# load_dotenv(find_dotenv())
+
 import matlab.engine
 eng = matlab.engine.start_matlab()
 
@@ -71,8 +74,8 @@ def main_loop():
             with sr.Microphone() as source:
 #                recognizer.adjust_for_ambient_noise(source)
                 audio = recognizer.listen(source)
-            user_messge = recognizer.recognize_whisper(audio_data = audio, model = "base", language = "english")
-    #        user_messge = recognizer.recognize_whisper_api(audio)
+#            user_messge = recognizer.recognize_whisper(audio_data = audio, model = "base", language = "english")
+            user_messge = recognizer.recognize_openai(audio)
 
     if user_messge:
         with container:

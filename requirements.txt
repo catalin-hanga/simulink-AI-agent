@@ -1,12 +1,12 @@
 matlabengine
 numpy
 scipy
-python-dotenv
-streamlit
-pydantic
-SpeechRecognition
-PyAudio
 dill
+python-dotenv
+pydantic
+PyAudio
+SpeechRecognition[openai]
+streamlit
 langchain
 langchain-openai
 langchain-community
