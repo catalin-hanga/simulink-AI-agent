@@ -34,9 +34,17 @@ OPENAI_API_KEY=...
 ## 3. Quick Start
 
 ### As a Streamlit application
-
 ```
 streamlit run main.py
 ```
 
 ### From the command line
+```
+python cli-app.py
+```
+
+**4. Questions and Bugs** <br>
+To report a potential bug, or to request a new feature, please open an issue.
+
+**5. License** <br>
+This code repository is licensed under the MIT License.
