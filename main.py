@@ -11,7 +11,7 @@ from prompts import prompt
 import streamlit as st
 import speech_recognition as sr
 
-from langchain.agents import AgentExecutor, create_react_agent
+from langchain.agents import create_react_agent, AgentExecutor
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 
 #----------------------------------------------------
@@ -42,7 +42,6 @@ agent_executor = AgentExecutor(
                                 tools = tools,
                                 verbose = False,
                                 handle_parsing_errors = True,
-                                stream_runnable = True,
                                 max_execution_time = 300,
                                 max_iterations = 20,
                             )
