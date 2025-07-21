@@ -23,13 +23,14 @@ cd simulink-AI-agent
 ```
 pip install -r requirements.txt
 ```
-By default, this command will install the latest version available of the Matlab Engine API for Python. If you do not have the latest release of Matlab, then you need to specify in the requirements.txt file a version of the Matlab engine that is compatible with your release. You can determine a compatible version of the Matlab engine by using the [PyPI page for Matlab Engine API for Python](https://pypi.org/project/matlabengine): From the Release history tab, review the Required MathWorks Products section for each MATLAB engine release. (More information about how to install the Matlab Engine API for Python can be found at https://mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html).
+By default, this command will install the latest version available of the Matlab Engine API for Python. If you do not have the latest release of Matlab, then you need to specify in the requirements.txt file a version of the Matlab engine that is compatible with your release. You can determine a compatible version of the Matlab engine by using the [PyPI page for Matlab Engine API for Python](https://pypi.org/project/matlabengine): From the Release history tab, review the Required MathWorks Products section for each MATLAB engine release. (More information about how to install the Matlab Engine API for Python can be found at https://mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
 
-**3. Add credentials** <br>
+**3. Add API credentials** <br>
 Create an .env file, and provide your OpenAI API key as an enviroment variable
 ```
 OPENAI_API_KEY=...
 ```
+(This is required for the multi-modal gpt-4o-mini LLM, as well as for the speech-to-text Whisper model)
 
 ## 3. Quick Start
 
@@ -43,8 +44,8 @@ streamlit run main.py
 python cli-app.py
 ```
 
-**4. Questions and Bugs** <br>
+## 4. Questions and Bugs
 To report a potential bug, or to request a new feature, please open an issue.
 
-**5. License** <br>
+## 5. License 
 This code repository is licensed under the MIT License.
