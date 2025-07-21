@@ -3,7 +3,7 @@
 !.gitignore
 !cli-app.py
 !functions.bin
-!LICENSE
+!LICENSE.md
 !main.py
 !models.py
 !prompts.py
