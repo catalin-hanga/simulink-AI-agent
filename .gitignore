@@ -1,6 +1,7 @@
 *
 
 !.gitignore
+!cli-app.py
 !functions.bin
 !main.py
 !models.py
