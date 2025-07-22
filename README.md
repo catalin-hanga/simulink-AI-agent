@@ -1,4 +1,4 @@
-# Simulink AI Agent
+# Simulink AI Agent 🤖
 
 ## 1. Project Description
 
