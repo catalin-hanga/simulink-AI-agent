@@ -1,7 +1,8 @@
 *
 
 !.gitignore
-!cli-app.py
+!agent.py
+!app.py
 !functions.bin
 !LICENSE.md
 !main.py

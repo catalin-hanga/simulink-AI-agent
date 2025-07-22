@@ -4,17 +4,11 @@ load_dotenv(find_dotenv())
 import matlab.engine
 eng = matlab.engine.start_matlab()
 
-from models import llm
-from tools import tools
-from prompts import prompt
-
 import streamlit as st
 import speech_recognition as sr
 
-from langchain.agents import create_react_agent, AgentExecutor
+from agent import agent_executor
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
-
-#----------------------------------------------------
 
 st.set_page_config(page_title = "SimuLang", page_icon = ":robot_face:")
 
@@ -33,20 +27,7 @@ def stream_data(answer : str):
         yield word + " "
         time.sleep(0.02)
 
-#----------------------------------------------------
-
-agent  = create_react_agent(llm, tools, prompt)
-
-agent_executor = AgentExecutor(
-                                agent = agent,
-                                tools = tools,
-                                verbose = False,
-                                handle_parsing_errors = True,
-                                max_execution_time = 300,
-                                max_iterations = 20,
-                            )
-
-#----------------------------------------------------
+emojis = {"user": "👨‍🔬", "assistant": "🤖"}
 
 @st.fragment
 def main_loop():
@@ -58,7 +39,7 @@ def main_loop():
     else:
         with container:
             for message in st.session_state["messages"]:
-                with st.chat_message(name = message["role"]):
+                with st.chat_message(name = message["role"], avatar = emojis[message["role"]]):
                     st.markdown(body = message["content"])
 
 
@@ -79,10 +60,10 @@ def main_loop():
     if user_messge:
         with container:
 
-            with st.chat_message(name = "user"):
+            with st.chat_message(name = "user", avatar = emojis["user"]):
                 st.markdown(body = user_messge)
 
-            with st.chat_message(name = "assistant"):
+            with st.chat_message(name = "assistant", avatar = emojis["assistant"]):
                 st_callback = StreamlitCallbackHandler(
                                                         parent_container = st.container(),
                                                         expand_new_thoughts = False,

@@ -11,7 +11,7 @@
   A free trial license for Matlab can be obtained from https://mathworks.com/campaigns/products/trials.html
 - Python 3.8, 3.9, 3.10, 3.11, or 3.12 <br>
   The version of Python should match with the corresponding release of Matlab, according to this table https://mathworks.com/support/requirements/python-compatibility.html
-- An [OpenAI](https://auth.openai.com/create-account) account, with an API key
+- An [OpenAI](https://auth.openai.com/create-account) account, with a valid [API key](https://platform.openai.com/settings/organization/api-keys)
 
 ### Installation Steps
 **1. Clone the repository**
@@ -28,7 +28,7 @@ By default, this command will install the latest version available of the Matlab
 **3. Add API credentials** <br>
 Create an .env file, and provide your OpenAI API key as an enviroment variable
 ```
-OPENAI_API_KEY=...
+OPENAI_API_KEY=sk-...
 ```
 (This is required for the multi-modal gpt-4o-mini LLM, as well as for the speech-to-text Whisper model)
 
@@ -39,9 +39,9 @@ OPENAI_API_KEY=...
 streamlit run main.py
 ```
 
-### From the command line
+### As an app from the command line
 ```
-python cli-app.py
+python app.py
 ```
 
 ## 4. Questions and Bugs
