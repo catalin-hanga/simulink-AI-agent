@@ -52,6 +52,7 @@ OPENAI_API_KEY=sk-...
 ```
 streamlit run main.py
 ```
+(The app can be accessed in the browser at http://localhost:8501)
 
 ### From the command line
 ```
