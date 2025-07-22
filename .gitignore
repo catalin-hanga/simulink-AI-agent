@@ -1,7 +1,8 @@
 *
 
 !.gitignore
-!images/demo.gif
+!**images/
+!**images/**
 !agent.py
 !app.py
 !functions.bin
