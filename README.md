@@ -6,12 +6,12 @@ An AI agent that provides a natural language interface to the user, for interact
 The agent has access to tools that allow it to autonomously perform any combination of the following tasks:
 - provide information about the installed Matlab application (such as version number, license number or installed packages)
 - create a new (blank) Simulink model, with a specific name
-- open an existing model
-- add or delete a Simulink block from a model
-- replace an existing block with a different block
+- open or close an existing model
+- add or delete a specific Simulink block from a model
+- replace a certain block with a different one
 - connect or disconnect two blocks
 - run the simulation
-- move a block in a certain direction (up, down, left, right), by a specific length (expressed in cm)
+- move a block in a certain direction (up, down, left, right), by a given length (expressed in cm)
 - provide information about an existing model (such as what blocks it has, and whether they are connected)
   
 The agent is able to accept user inputs in the form of both text and audio.
