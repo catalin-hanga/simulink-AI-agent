@@ -7,7 +7,7 @@
 ### Requirements
 
 - Matlab ≥ R2023a, and the Simulink package <br>
-  Instructions on how to install Matlab can be found at https://mathworks.com/help/install/ug/install-products-with-internet-connection.html <br>
+  Instructions on how to download and install Matlab can be found at https://mathworks.com/help/install/ug/install-products-with-internet-connection.html <br>
   A free trial license for Matlab can be obtained from https://mathworks.com/campaigns/products/trials.html
 - Python 3.8, 3.9, 3.10, 3.11, or 3.12 <br>
   The version of Python should match with the corresponding release of Matlab, according to this table https://mathworks.com/support/requirements/python-compatibility.html
