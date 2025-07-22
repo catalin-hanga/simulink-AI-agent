@@ -5,7 +5,7 @@
 An AI agent that provides a natural language interface to the user, for interacting with Simulink models. <br>
 The agent has access to tools that allow it to autonomously perform any combination of the following tasks:
 - provide information about the installed Matlab application (such as version number, license number or installed packages)
-- create a new (blank) Simulink model, with a specific name
+- create a new (blank) Simulink model, with a given name
 - open or close an existing model
 - add or delete a specific Simulink block from a model
 - replace a certain block with a different one
