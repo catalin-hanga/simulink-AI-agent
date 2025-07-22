@@ -13,6 +13,6 @@ langchain-community
 # langchain-anthropic
 # langchain-mistralai
 # langchain-cohere
-# langchain-google-genai
 # langchain-aws
 # boto3
+# langchain-google-genai
