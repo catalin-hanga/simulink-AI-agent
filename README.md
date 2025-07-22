@@ -41,7 +41,8 @@ cd simulink-AI-agent
 ```
 pip install -r requirements.txt
 ```
-By default, this command will install the latest version available of the Matlab Engine API for Python. If you do not have the latest release of Matlab, then you need to specify in the requirements.txt file a version of the Matlab engine that is compatible with your release. You can determine a compatible version of the Matlab engine by using the [PyPI page for Matlab Engine API for Python](https://pypi.org/project/matlabengine): From the Release history tab, review the Required MathWorks Products section for each MATLAB engine release. (More information about how to install the Matlab Engine API for Python can be found at https://mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
+> [!NOTE]
+By default, this command will install the latest version available of the Matlab Engine API for Python. If you do not have the latest release of Matlab, then you need to specify in the requirements.txt file a version of the Matlab engine that is compatible with your release. You can determine a compatible version of the Matlab engine by using the [PyPI page for Matlab Engine API for Python](https://pypi.org/project/matlabengine): from the Release history tab, review the Required MathWorks Products section for each MATLAB engine release. (More information about how to install the Matlab Engine API for Python can be found at https://mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
 
 **3. Add API credentials** <br>
 Create an .env file, and provide your OpenAI API key as an enviroment variable
@@ -57,7 +58,7 @@ OPENAI_API_KEY=sk-...
 streamlit run main.py
 ```
 The app can be accessed in the browser at http://localhost:8501/ <br>
-(Ideally, the broswer should be placed on the right side of the screen, like in the above demo)
+(Ideally, the broswer should be placed on the right half side of the screen, like in the above demo)
 
 ### From the command line
 ```
