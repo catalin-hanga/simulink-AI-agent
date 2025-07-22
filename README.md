@@ -18,7 +18,7 @@ The agent is able to accept user inputs in the form of both text and audio.
 
 ## 2. Short Demo
 
-![Demo](https://github.com/catalin-hanga/simulink-AI-agent/blob/main/images/demo.gif)
+![Demo](https://github.com/catalin-hanga/simulink-AI-agent/blob/main/images/demo.mov)
 
 ## 3. Setup Enviroment
 
