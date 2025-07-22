@@ -16,9 +16,11 @@ The agent has access to tools that allow it to autonomously perform any combinat
   
 The agent is able to accept user inputs in the form of both text and audio.
 
-![Demo](./assets/images/demo.gif)
+## 2. Short Demo
 
-## 2. Setup Enviroment
+![Demo](https://github.com/catalin-hanga/simulink-AI-agent/blob/main/images/demo.gif)
+
+## 3. Setup Enviroment
 
 ### Requirements
 
@@ -48,7 +50,7 @@ OPENAI_API_KEY=sk-...
 ```
 (This is required for the multi-modal LLM GPT-4o mini, as well as for the speech-to-text Whisper model)
 
-## 3. Quick Start
+## 4. Quick Start
 
 ### As a Streamlit application
 ```
@@ -61,8 +63,8 @@ streamlit run main.py
 python app.py
 ```
 
-## 4. Questions and Bugs
+## 5. Questions and Bugs
 To report a potential bug, or to request a new feature, please open an issue.
 
-## 5. License 
+## 6. License 
 This code repository is licensed under the MIT License.
