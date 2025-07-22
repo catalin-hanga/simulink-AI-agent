@@ -14,7 +14,7 @@ The agent has access to tools that allow it to autonomously perform the followin
 - move a block in a certain direction (up, down, left, right), by a specific length (expressed in cm)
 - provide information about an existing model (such as what blocks it has, and whether they are connected)
   
-The agent is able to accept inputs in the form of both text and audio.
+The agent is able to accept user inputs in the form of both text and audio.
 
 ## 2. Setup Enviroment
 
