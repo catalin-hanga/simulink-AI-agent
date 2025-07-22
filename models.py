@@ -27,7 +27,10 @@ llm = ChatOpenAI(
 # )
 
 # from langchain_cohere import ChatCohere
-# llm = ChatCohere()
+# llm = ChatCohere(
+#     model="command-a-03-2025",
+#     temperature=0,
+# )
 
 # from langchain_aws import ChatBedrockConverse
 # llm = ChatBedrockConverse(
