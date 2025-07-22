@@ -1,6 +1,7 @@
 *
 
 !.gitignore
+!images/demo.gif
 !agent.py
 !app.py
 !functions.bin
@@ -10,4 +11,5 @@
 !prompts.py
 !README.md
 !requirements.txt
+!SECURITY.md
 !tools.py
