@@ -42,7 +42,6 @@ def main_loop():
                 with st.chat_message(name = message["role"], avatar = emojis[message["role"]]):
                     st.markdown(body = message["content"])
 
-
     (col1, col2) = st.columns([0.9, 0.1])
 
     with col1:
