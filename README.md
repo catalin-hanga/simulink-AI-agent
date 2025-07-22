@@ -53,7 +53,7 @@ OPENAI_API_KEY=sk-...
 streamlit run main.py
 ```
 
-### As an app from the command line
+### From the command line
 ```
 python app.py
 ```
