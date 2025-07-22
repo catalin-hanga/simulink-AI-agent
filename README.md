@@ -9,7 +9,7 @@ The agent has access to tools that allow it to autonomously perform any combinat
 - open an existing model
 - add or delete a Simulink block from a model
 - replace an existing block with a different block
-- connect or disconnect two existing blocks
+- connect or disconnect two blocks
 - run the simulation
 - move a block in a certain direction (up, down, left, right), by a specific length (expressed in cm)
 - provide information about an existing model (such as what blocks it has, and whether they are connected)
