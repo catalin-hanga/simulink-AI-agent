@@ -25,7 +25,7 @@ def stream_data(answer : str):
     import time
     for word in answer.split(" "):
         yield word + " "
-        time.sleep(0.02)
+        time.sleep(0.03)
 
 emojis = {"user": "👨‍🔬", "assistant": "🤖"}
 
