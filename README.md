@@ -16,6 +16,8 @@ The agent has access to tools that allow it to autonomously perform any combinat
   
 The agent is able to accept user inputs in the form of both text and audio.
 
+![Demo](./assets/images/demo.gif)
+
 ## 2. Setup Enviroment
 
 ### Requirements
