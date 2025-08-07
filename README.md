@@ -18,7 +18,7 @@ The agent is able to accept user inputs in the form of both text and audio.
 
 ## 2. Short Demo
 
-https://github.com/user-attachments/assets/a9ca3763-801f-4516-98aa-bcfc1f65bef0
+https://github.com/user-attachments/assets/5c9e5bb8-7c2e-4e56-9740-ea393745f23d
 
 ## 3. Setup Enviroment
 
