@@ -3,7 +3,6 @@
 !.gitignore
 !agent.py
 !app.py
-!demo.gif
 !functions.bin
 !LICENSE.md
 !main.py
