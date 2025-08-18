@@ -63,7 +63,7 @@ Install dependencies
 uv add "mcp[cli]" matlabengine dill numpy
 ```
 Download and install [Claude Desktop](https://claude.ai/download). <br>
-Open Claude Desktop, go to File -> Settings -> Developer -> Edit Config; <br>
+Open Claude Desktop, go to File -> Settings -> Developer -> Edit Config. <br>
 Open the ```claude_desktop_config.json``` file, and add the details of the MCP server:
 ```
 {
