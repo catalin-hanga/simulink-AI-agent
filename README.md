@@ -24,7 +24,7 @@ It can be run locally, in one of three different ways:
 ## 3. Setup Enviroment
 -->
 
-## Prerequisites and Requirements
+## Pre-requisites and Requirements
 
 - A [Mathworks account](https://www.mathworks.com/mwaccount/account/create), with Matlab ≥ R2023a, and the Simulink package <br>
   Instructions on how to download and install Matlab can be found at https://mathworks.com/help/install/ug/install-products-with-internet-connection.html <br>
