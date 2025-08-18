@@ -3,7 +3,7 @@
 ## 1. Project Description
 
 An AI agent that provides a conversational interface for interacting with Simulink models through natural language. <br>
-The agent has access to tools that allow it to autonomously perform any combination of the following tasks:
+The agent has access to a list of tools that allows it to autonomously perform any combination of the following tasks:
 - provide information about the installed Matlab application (such as version number, license number or installed packages)
 - create a new (blank) Simulink model, with a given name
 - open or close an existing model
