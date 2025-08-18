@@ -6,7 +6,7 @@ python-dotenv
 pydantic
 PyAudio
 SpeechRecognition[openai]
-streamlit==1.45.0
+streamlit
 langchain
 langchain-openai
 langchain-community
