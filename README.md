@@ -39,6 +39,11 @@ By default, Python will install the latest version available. If you do not have
 ## Option 1: MCP server
 
 ### Installation Steps
+Clone the repository
+```
+git clone https://github.com/catalin-hanga/simulink-AI-agent
+cd simulink-AI-agent
+```
 Install the ```uv``` library
 ```
 pip install uv
