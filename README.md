@@ -128,7 +128,7 @@ https://github.com/user-attachments/assets/39ec886e-4a73-4c51-8b3b-a49391e18abf
 ## Option 3: Command line
 
 ### Installation Steps
-Same as above.
+Same as the above, in Option 2.
 
 ### Quick Start
 From the command line, run:
