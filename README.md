@@ -49,7 +49,7 @@ Create an .env file, and provide your OpenAI API key as an enviroment variable
 ```
 OPENAI_API_KEY=sk-...
 ```
-(This is required for the multi-modal LLM GPT-4o mini, as well as for the speech-to-text Whisper model)
+(This is required for a multi-modal LLM, such as GPT-4o mini, as well as for the speech-to-text Whisper model)
 
 ## 4. Quick Start
 
