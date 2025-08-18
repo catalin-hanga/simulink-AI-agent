@@ -50,7 +50,7 @@ uv init mcp-project --python 3.12
 Copy the relevant files to this project folder
 ```
 cp mcp_server.py mcp-project\main.py
-cp functions.bin , functions.py mcp-project
+cp functions.bin, functions.py mcp-project
 cd mcp-project
 ```
 Create virtual environment, and activate it
