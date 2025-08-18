@@ -53,7 +53,7 @@ cp mcp_server.py mcp-project\main.py
 cp functions.bin, functions.py mcp-project
 cd mcp-project
 ```
-Create virtual environment, and activate it
+Create a virtual environment, and activate it
 ```
 uv venv
 .venv\Scripts\activate
