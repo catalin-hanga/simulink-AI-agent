@@ -15,6 +15,10 @@ The agent has access to tools that allow it to autonomously perform any combinat
 - provide information about an existing model (such as what blocks it has, and whether they are connected)
   
 The agent is able to accept user inputs in the form of both text and audio.
+It can be run locally, in one of three different ways:
+- from the command line
+- as a Streamlit application
+- with Claude Desktop, using Model Context Protocol (MCP)
 
 ## 2. Short Demo
 
