@@ -83,7 +83,7 @@ Open the ```claude_desktop_config.json``` file, and add the details of the MCP s
 Finally, restart the operating system.
 
 ### Quick Start
-Open Claude Desktop, and check the ```Search and tools``` section to see if the MCP server is running.
+Open Claude Desktop, and check the ```Search and tools``` section, to see if the MCP server is running properly.
 
 <img width="865" height="521" alt="mcp" src="https://github.com/user-attachments/assets/af3beb3a-7886-433e-91f6-c22020f0f111" />
 
