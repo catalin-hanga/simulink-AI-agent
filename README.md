@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/39ec886e-4a73-4c51-8b3b-a49391e18abf
 - A [Mathworks account](https://www.mathworks.com/mwaccount/account/create), with Matlab ≥ R2023a, and the Simulink package <br>
   Instructions on how to download and install Matlab can be found at https://mathworks.com/help/install/ug/install-products-with-internet-connection.html <br>
   A free trial license for Matlab can be obtained from https://mathworks.com/campaigns/products/trials.html
-- Python 3.8, 3.9, 3.10, 3.11, or 3.12 <br>
+- Python 3.8, 3.9, 3.10, 3.11 or 3.12 <br>
   The version of Python should match with the corresponding release of Matlab, according to this table https://mathworks.com/support/requirements/python-compatibility.html
 - An [OpenAI account](https://auth.openai.com/create-account), with a valid [API key](https://platform.openai.com/settings/organization/api-keys)
 
