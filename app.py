@@ -11,5 +11,3 @@ while user_messge != "bye":
     chat_messages.append(("user",      response["input"]))
     chat_messages.append(("assistant", response["output"]))
     user_messge = input("\nUser: ")
-
-eng.quit()

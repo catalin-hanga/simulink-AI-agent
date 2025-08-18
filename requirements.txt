@@ -1,7 +1,7 @@
 matlabengine
+dill
 numpy
 scipy
-dill
 python-dotenv
 pydantic
 PyAudio

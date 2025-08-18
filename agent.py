@@ -1,8 +1,14 @@
 from models import llm
-from tools import tools
 from prompts import prompt
-
+from functions import functions
+from langchain_core.tools import StructuredTool
 from langchain.agents import create_react_agent, AgentExecutor 
+
+tools = []
+
+for func in functions:
+   tool = StructuredTool.from_function(func = func)
+   tools.append(tool)
 
 agent = create_react_agent(llm, tools, prompt)
 

@@ -4,11 +4,12 @@
 !agent.py
 !app.py
 !functions.bin
+!functions.py
 !LICENSE.md
 !main.py
+!mcp_server.py
 !models.py
 !prompts.py
 !README.md
 !requirements.txt
 !SECURITY.md
-!tools.py
