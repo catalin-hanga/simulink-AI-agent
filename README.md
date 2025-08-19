@@ -140,7 +140,7 @@ python app.py
 ```
 
 ## Questions and Bugs
-To report a potential bug, or to request a new feature, please open an issue.
+To report a potential bug, or to suggest a new feature, please open an issue.
 
 ## License 
 This code repository is licensed under the MIT License.
