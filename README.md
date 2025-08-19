@@ -17,7 +17,7 @@ The agent has access to a list of tools, that allows it to autonomously perform 
 The agent is able to accept user inputs in the form of both text and audio. <br>
 It can be run locally, in one of three different ways:
 1. with Claude Desktop, using a Model Context Protocol (MCP) server
-2. as a Streamlit application
+2. in the browser, as a Streamlit application
 3. from the command line
 
 <!---
