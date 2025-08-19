@@ -139,10 +139,6 @@ From the command line, run:
 python app.py
 ```
 
-### Short Demo
-
-
-
 ## Questions and Bugs
 To report a potential bug, or to request a new feature, please open an issue.
 
