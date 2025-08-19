@@ -82,7 +82,7 @@ Open the ```claude_desktop_config.json``` file, and add the details of the MCP s
 }
 ```
 > [!NOTE]
-> It is necessary to provide the absolute paths to the ```uv``` executable, as well as to the MCP server.
+> It is necessary to provide the absolute paths to the ```uv``` executable, as well as to the MCP server folder.
 > On Windows, the path to the ```uv``` executable can be obained by running ```where uv```. (In the case of Anaconda, this is ususally something like "C:\\\\Users\\\\username\\\\anaconda3\\\\Scripts\\\\uv").
 > The path to the MCP server can be obtained by running the ```cd``` command.
 
@@ -117,7 +117,7 @@ OPENAI_API_KEY=sk-...
 (This is required for a multi-modal LLM, such as GPT-4o mini, as well as for the speech-to-text Whisper model).
 
 ### Quick Start
-From the Command Prompt, run:
+From the Command Prompt, run
 ```
 streamlit run main.py
 ```
@@ -134,7 +134,7 @@ https://github.com/user-attachments/assets/a55b62dc-9676-4ea4-8193-e6117d2e72fa
 Same as the above, in Option 2.
 
 ### Quick Start
-From the Command Prompt, run:
+From the Command Prompt, run
 ```
 python app.py
 ```
