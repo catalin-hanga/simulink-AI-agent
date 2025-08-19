@@ -20,10 +20,6 @@ It can be run locally, in one of three different ways:
 2. in the browser, as a Streamlit application
 3. from the command line
 
-<!---
-## 3. Setup Enviroment
--->
-
 ## Pre-requisites and Requirements
 
 - A [Mathworks account](https://www.mathworks.com/mwaccount/account/create), with Matlab ≥ R2023a, and the Simulink package <br>
@@ -88,7 +84,7 @@ Open the ```claude_desktop_config.json``` file, and add the details of the MCP s
 Finally, restart the operating system.
 
 ### Quick Start
-Open Claude Desktop, and check the ```Search and tools``` section, to see if the MCP server is running properly.
+Open Claude Desktop, and check the ```Search and tools``` section, to see if the MCP server is running properly, and has all the 12 tools available.
 
 <img width="865" height="521" alt="mcp" src="https://github.com/user-attachments/assets/af3beb3a-7886-433e-91f6-c22020f0f111" />
 
