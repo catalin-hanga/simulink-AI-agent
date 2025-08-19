@@ -46,13 +46,13 @@ pip install uv
 ```
 Create a new directory for this project, and initiate it
 ```
-uv init mcp-project --python 3.12
+uv init mcp-server --python 3.12
 ```
 Copy the relevant files to this project folder
 ```
-cp mcp_server.py mcp-project\main.py
-cp functions.bin, functions.py mcp-project
-cd mcp-project
+cp mcp-file.py mcp-server\main.py
+cp functions.bin, functions.py mcp-server
+cd mcp-server
 ```
 Create a virtual environment, and activate it
 ```
@@ -73,7 +73,7 @@ Open the ```claude_desktop_config.json``` file, and add the details of the MCP s
       "command": "C:\\absolute\\path\\to\\executable\\uv",
       "args": [
         "--directory",
-        "C:\\absolute\\path\\to\\folder\\simulink-AI-agent\\mcp-project",
+        "C:\\absolute\\path\\to\\folder\\simulink-AI-agent\\mcp-server",
         "run",
         "main.py"
       ]
