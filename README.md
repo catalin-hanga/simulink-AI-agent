@@ -86,13 +86,13 @@ Open the ```claude_desktop_config.json``` file, and add the details of the MCP s
 > On Windows, the path to the ```uv``` executable can be obained by running ```where uv```. (In the case of Anaconda, this is ususally something like "C:\\\\Users\\\\username\\\\anaconda3\\\\Scripts\\\\uv").
 > The path to the MCP server can be obtained by running the ```cd``` command.
 
-
 Finally, restart the operating system.
 
 ### Quick Start
 Open Claude Desktop, and check the ```Search and tools``` section, to see if the MCP server is running properly, and has all the tools available.
 
-<img width="865" height="521" alt="mcp" src="https://github.com/user-attachments/assets/af3beb3a-7886-433e-91f6-c22020f0f111" />
+<img width="866" height="523" alt="mcp" src="https://github.com/user-attachments/assets/fe0ceb5d-b9c4-4d53-96e7-cced22170cd7" />
+
 
 ### Short Demo
 
