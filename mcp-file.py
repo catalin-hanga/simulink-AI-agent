@@ -7,6 +7,10 @@ eng = matlab.engine.start_matlab()
 # Initialize FastMCP server
 mcp = FastMCP(name = "simulang")
 
+functions = [f for f in functions if f.__name__ != 'DescribeModel']
+# this tool does not work with the MCP server 
+# (requires an OpenAI API key)
+
 # Add tools to the server
 for func in functions:
     mcp.add_tool(func)
