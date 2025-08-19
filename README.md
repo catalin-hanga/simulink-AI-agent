@@ -95,7 +95,7 @@ Open Claude Desktop, and check the ```Search and tools``` section, to see if the
 
 ### Short Demo
 
-https://github.com/user-attachments/assets/ff3e292f-af50-433a-8e8e-5070acb12b36
+https://github.com/user-attachments/assets/b6bb7cee-bf24-4044-920f-cab036f930ce
 
 ## Option 2: Streamlit app
 
