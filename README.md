@@ -93,8 +93,9 @@ Open Claude Desktop, and check the ```Search and tools``` section, to see if the
 
 <img width="866" height="523" alt="mcp" src="https://github.com/user-attachments/assets/fe0ceb5d-b9c4-4d53-96e7-cced22170cd7" />
 
-
 ### Short Demo
+
+https://github.com/user-attachments/assets/ff3e292f-af50-433a-8e8e-5070acb12b36
 
 ## Option 2: Streamlit app
 
@@ -124,7 +125,8 @@ The app can be accessed in the browser at http://localhost:8501/. <br>
 (Ideally, the broswer should be placed on the right half side of the screen, like in the demo).
 
 ### Short Demo
-https://github.com/user-attachments/assets/39ec886e-4a73-4c51-8b3b-a49391e18abf
+
+https://github.com/user-attachments/assets/a55b62dc-9676-4ea4-8193-e6117d2e72fa
 
 ## Option 3: Command line
 
